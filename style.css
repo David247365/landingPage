@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+    padding: 10px 0;
+    height: 10vh;
+}
+
+header i {
+    font-size: 45px;;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#hero {
+    height: 90vh;
+    display: flex;
+}
